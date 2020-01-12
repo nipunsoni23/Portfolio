@@ -11,7 +11,8 @@ nav{
   justify-content: flex-end; /*affects horizontal position, affects ul*/
   align-items: center; /*affects vertical position*/
   font-family: 'Abril Fatface', cursive;
-  color: white;
+  color: rgb(99, 59, 35);
+  
 }
 ul{
   display: flex;
@@ -28,15 +29,44 @@ li{
 }
 header{
   width:100%;
-  background:#E44E3F; /*affects bg of child as well unless it has its own color*/
+  /* background:#E44E3F; */
+   /*affects bg of child as well unless it has its own color*/
   /* border: 2px solid blue; */
 }
+.landing
+{
+  background-image: url("../img/white-orange-and-gray-abstract-painting-2825642.jpg");
+  background-repeat: none;
+  background-size: cover;
+  /* filter: blur(1px); */
+}
 .home{
-  border: 3px solid pink;
-  
-  font-family: 'Righteous', cursive;
+  /* border: 3px solid pink; */  
+font-family: 'IM Fell Great Primer SC', serif;
 display: flex; /*default was row*/
 flex-direction: column;
 justify-content: center; 
 align-items: center;
+padding: 48px;
+height: 500px;
+}
+.intro{
+  margin: 10px auto;
+  z-index:2;
+  filter: none;
+}
+#name{
+  font-size: 56px;
+  color: #0D1D30;
+  text-shadow: 2px 2px #12111680;
+
+
+}
+#role
+{
+  font-size: 63px;
+  color: #0D1D30;
+  text-shadow: 2px 2px #12111680;
+
+
 }
