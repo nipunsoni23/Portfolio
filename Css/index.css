@@ -4,15 +4,34 @@
   padding:0;
   box-sizing: border-box; 
   /* includes p,m in specified w,h. */
-
+  font-family: 'Poppins', sans-serif;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
 /* header->nav->ul->li->text */
 nav{
   display: flex;
   justify-content: flex-end; /*affects horizontal position, affects ul*/
   align-items: center; /*affects vertical position*/
-  font-family: 'Abril Fatface', cursive;
   
+}
+
+#nav-bar a {
+  border-radius: 3px;
+}
+
+#nav-bar a:hover {
+  background-color: #634040;
+  color: white;
+  transition: 0.3s;
 }
 
 header{
@@ -32,9 +51,9 @@ justify-content: center;
 align-items: center;
 height:100vh;
 }
+
 .home{
   /* border: 3px solid pink; */  
-font-family: 'IM Fell Great Primer SC', serif;
 display: flex; /*default was row*/
 flex-direction: column;
 justify-content: center; 
@@ -82,4 +101,8 @@ height: 90vh;
 {
   font-size: 63px;
   text-shadow: 2px 2px #12111680;
+}
+
+.objective h3 {
+  text-align: center;
 }
