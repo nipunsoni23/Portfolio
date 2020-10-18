@@ -7,6 +7,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -14,6 +18,11 @@ a {
 
 li {
   list-style: none;
+}
+
+.skills h1, .projects h1, .about h1, .extra h1 {
+  font-size: 48px;
+  color: #634040;
 }
 
 /* header->nav->ul->li->text */
@@ -43,7 +52,7 @@ header{
   /* border: 2px solid blue; */
 }
 /* -------------------class------------------------- */
-.about
+.about, .skills, .projects, .extra
 {
 display: flex;
 flex-direction: column;
@@ -67,7 +76,7 @@ height: 90vh;
 }
 .landing
 {
-  background-image: url("../img/794531.jpg");
+  /* background-image: url("../img/794531.jpg"); */
   background-repeat: none;
   background-size: cover;
   color:#634040;
@@ -93,7 +102,6 @@ height: 90vh;
   list-style: none;
   justify-content: space-between; /*affects li element, but didn't separate elements until li properties were added*/
   /* margin: 2px; adds margin to ul element from top */
-  padding: 12px;
   /* background: white; */
 }
 
@@ -105,4 +113,9 @@ height: 90vh;
 
 .objective h3 {
   text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
 }
