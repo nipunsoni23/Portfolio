@@ -22,7 +22,7 @@ li {
 
 .skills h1, .projects h1, .about h1, .extra h1 {
   font-size: 48px;
-  color: #634040;
+  color: #183D5D;
 }
 
 /* header->nav->ul->li->text */
@@ -38,7 +38,7 @@ nav{
 }
 
 #nav-bar a:hover {
-  background-color: #634040;
+  background-color: #183D5D;
   color: white;
   transition: 0.3s;
 }
@@ -79,7 +79,7 @@ height: 90vh;
   /* background-image: url("../img/794531.jpg"); */
   background-repeat: none;
   background-size: cover;
-  color:#634040;
+  color: #183D5D;
   height: 100vh;
   
   /* filter: blur(1px); */
@@ -91,9 +91,7 @@ height: 90vh;
 }
 #name{
   font-size: 56px;
-  text-shadow: 2px 2px #12111680;
-
-
+  text-shadow: 2px 2px #183D5D;
 }
 
 #nav-bar{
